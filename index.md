@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Emmanuel Luna's Portifolio for IB Programming 2020/2021
 
 You can use the [editor on GitHub](https://github.com/Elun4705/IB-Programming---Prortifolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
