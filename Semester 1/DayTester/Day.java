@@ -9,7 +9,7 @@ public class Day
    private int month;
    private int date;
 
-   private static final int[] DAYS_PER_MONTH
+   private static final int[] DAYS_PER_MONTH 
          = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
    private static final int GREGORIAN_START_YEAR = 1582;
@@ -40,11 +40,11 @@ public class Day
       @param aMonth a month between 1 and 12
       @param aDate a date between 1 and 31
    */
-   public Day(int aMonth, int aData, int aYear)
+   public Day(int aYear, int aMonth, int aDate)
    {
+      year = aYear;
       month = aMonth;
       date = aDate;
-      year = aYear;
    }
 
    /**
@@ -100,7 +100,7 @@ public class Day
       Returns the number of days between this day and another
       day.
       @param other the other day
-      @return the number of days that this day is away from
+      @return the number of days that this day is away from 
       the other (>0 if this day comes later than <code>other</code>)
    */
    public int daysFrom(Day other)
@@ -154,7 +154,6 @@ public class Day
       if (y == GREGORIAN_START_YEAR
             && m == GREGORIAN_START_MONTH
             && d == JULIAN_END_DAY)
-
          d = GREGORIAN_START_DAY;
       else if (d < daysPerMonth(y, m))
          d++;
@@ -162,10 +161,10 @@ public class Day
       {
          d = 1;
          m++;
-         if (m > DECEMBER)
-         {
-            m = JANUARY;
-            y++;
+         if (m > DECEMBER) 
+         { 
+            m = JANUARY; 
+            y++; 
             if (y == 0) y++;
          }
       }
@@ -189,12 +188,12 @@ public class Day
       else if (d > 1)
          d--;
       else
-      {
+      {	
          m--;
-         if (m < JANUARY)
-         {
-            m = DECEMBER;
-            y--;
+         if (m < JANUARY) 
+         {             
+            m = DECEMBER; 
+            y--; 
             if (y == 0) y--;
          }
          d = daysPerMonth(y, m);
@@ -211,7 +210,7 @@ public class Day
    private static int daysPerMonth(int y, int m)
    {
       int days = DAYS_PER_MONTH[m - 1];
-      if (m == FEBRUARY && isLeapYear(y))
+      if (m == FEBRUARY && isLeapYear(y)) 
          days++;
       return days;
    }
