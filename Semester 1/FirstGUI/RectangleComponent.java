@@ -5,9 +5,14 @@ import javax.swing.JComponent;
 
 public class RectangleComponent extends JComponent{
   public void paintComponent(Graphics g){
-    Graphics2D g2 = (Graphics2D) g;
+    int mBday = ;
+    int dBDay = ;
+    int bBDay = ;
+    int mBDay = ;
 
-    Rectangle box = new Rectangle(5, 10, 20, 30);
+    Graphics2D g2 = (Graphics2D) g;
+    Rectangle box = new Rectangle(5, 10, mBDay, 30);
+
     g2.draw(box);
   }
 }
