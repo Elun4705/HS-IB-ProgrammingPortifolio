@@ -3,7 +3,7 @@ import javax.swing.*;
 public class RectangleViewer {
   public static void main(String[] args){
     JFrame frame = new JFrame();
-    frame.setSize(300,400);
+    frame.setSize(800,600);
     frame.setTitle("Rectangles");
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 

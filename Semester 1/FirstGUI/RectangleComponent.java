@@ -2,7 +2,7 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 import javax.swing.JComponent;
-import java.awt.geom.Color;
+//import java.awt.geom.Color;
 
 
 public class RectangleComponent extends JComponent{
@@ -21,11 +21,14 @@ public class RectangleComponent extends JComponent{
 
 
     Graphics2D g2 = (Graphics2D) g;
-    Rectangle box = new Rectangle(5, 10, dBDay, 30);
-    Rectangle box = new Rectangle(25, 10, mBDay, 30);
-    Rectangle box = new Rectangle(45, 10, bBDay, 30);
-    Rectangle box = new Rectangle(65, 10, mBDay, 30);
+    Rectangle box1 = new Rectangle(5, 10, dBday, 30);
+    Rectangle box2 = new Rectangle(25, 10, mBday, 30);
+    Rectangle box3 = new Rectangle(45, 10, bBday, 30);
+    Rectangle box4 = new Rectangle(65, 10, myBday, 30);
 
-    g2.draw(box);
+    g2.draw(box1);
+    g2.draw(box2);
+    g2.draw(box3);
+    g2.draw(box4);
   }
 }
