@@ -19,6 +19,7 @@ public class RectangleComponent extends JComponent{
     int bBday = 365 - today.daysFrom(broBday);
     int myBday = 365 - today.daysFrom(meBday);
 
+
     Graphics2D g2 = (Graphics2D) g;
     Rectangle box = new Rectangle(5, 10, dBDay, 30);
     Rectangle box = new Rectangle(25, 10, mBDay, 30);
