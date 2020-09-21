@@ -14,10 +14,10 @@ public class RectangleComponent extends JComponent{
     Day broBday = new Day(year - 1, 11, 12);
     Day meBday = new Day(year -1, 13, 8);
 
-    int dBday = 365 - today.daysFrom(dadBday);
-    int mBday = 365 - today.daysFrom(momBday);
-    int bBday = 365 - today.daysFrom(broBday);
-    int myBday = 365 - today.daysFrom(meBday);
+    int dBday = today.daysFrom(dadBday);
+    int mBday = today.daysFrom(momBday);
+    int bBday = today.daysFrom(broBday);
+    int myBday = today.daysFrom(meBday);
 
 
     Graphics2D g2 = (Graphics2D) g;
