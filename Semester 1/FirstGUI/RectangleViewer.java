@@ -13,7 +13,4 @@ public class RectangleViewer {
     frame.setVisible(true);
   }
 
-  public void method(){
-
-  }
 }
