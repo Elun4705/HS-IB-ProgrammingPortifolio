@@ -9,28 +9,22 @@ import java.util.Scanner;
 
 public class BankAccountTester {
   public static void main(String[] args) {
+
     BankAccount account = new BankAccount();
 
-    System.out.print("  Hello and welcome to your Bank Account!  ");
-    System.out.print("         How can I help you today?         ");
-    System.out.print("  1 - Balance 2 - Withdrawal 3 - Deposit   ");
+    System.out.print("This is your balance $");
+    double balnum = account.getBalance();
+    System.out.println(balnum);
 
-    switch (){
-      case 1:
+    System.out.print("You have now placed $");
+    double depnum = account.deposit(500.00);
+    System.out.println(depnum);
 
-        break;
+    System.out.print("You have now removed $");
+    int withnum = account.withdrawal(100.00);
+    System.out.println(withnum);
 
-      case 2:
+    
 
-        break;
-
-      case 3:
-
-        break;
-
-      default:
-
-        break;
-    }
   }
 }

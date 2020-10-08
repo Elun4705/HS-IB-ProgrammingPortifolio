@@ -12,7 +12,7 @@ public class BankAccount {
   private int    transactionToFee;
 
   public Account() {
-    this.balance = 0;
+    this.balance = 0.00;
     this.transactionFee = 0.10;
     this.monthlyCharge = 0;
   }
@@ -30,11 +30,12 @@ public class BankAccount {
   }
 
   public setTransactionFee(double fee) {
-
+    this.transactionFee = fee;
   }
 
   public deductMonthlyCharge() {
-
+    balance -= transactionFee;
+    transactionFee = 0;
   }
 
 }
