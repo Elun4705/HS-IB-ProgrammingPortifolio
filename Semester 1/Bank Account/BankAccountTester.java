@@ -12,19 +12,14 @@ public class BankAccountTester {
 
     BankAccount account = new BankAccount();
 
-    System.out.print("This is your balance $");
-    double balnum = account.getBalance();
-    System.out.println(balnum);
+    System.out.println("This is your balance $" + account.getBalance());
 
-    System.out.print("You have now placed $");
-    double depnum = account.deposit(500.00);
-    System.out.println(depnum);
+    account.deposit(500.00);
+    System.out.println("This is you new balance $" + account.getBalance());
+    System.out.println("Your balance should be $500");
 
-    System.out.print("You have now removed $");
-    int withnum = account.withdrawal(100.00);
-    System.out.println(withnum);
-
-    
-
+    account.withdrawal(100.00);
+    System.out.println("This is now the balance $" + account.getBalance());
+    System.out.println("Your balance should be $400");
   }
 }
