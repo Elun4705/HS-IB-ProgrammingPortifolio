@@ -10,6 +10,7 @@ public class BankAccount {
   private double transactionFee;
   private double monthlyCharge;
   private int    transactionToFee;
+  private int    requestMade;
 
   public BankAccount() {
     this.balance = 0.00;
@@ -33,9 +34,12 @@ public class BankAccount {
   * This method is used to leave the value alone
   * @param amount  This is the first parameter that is
   * being used, here it's 500 in the  Tester screen
+  * This request adds so that it can charge the monthly charge every time
+  * moreover, this code behaves as if a month was over each time
   */
   public void deposit(double amount) {
     this.balance += amount;
+    this.monthlyCharge++;
   }
 
   /**
@@ -43,9 +47,11 @@ public class BankAccount {
   * @param amount  This is the second parameter that is
   * being used, here it's 100 in the  Tester screen
   * Total should be 400 afterwards
+  * This request adds so that it can charge the monthly charge every time
   */
   public void withdrawal(double amount) {
     this.balance -= amount;
+    this.monthlyCharge++;
   }
 
   /**
@@ -54,12 +60,16 @@ public class BankAccount {
   * being used, here it's 0.10, not show for the user
   */
   public void setTransactionFee(double fee) {
-    this.transactionFee = fee;
+    this.transactionFee = transactionFee;
   }
 
-  //public void deductMonthlyCharge() {
-    //this.balance -= transactionFee * requestMade;
-    //transactionFee = 0;
-  //}
+  /**
+  * This method is used to leave the value alone
+  * @param this.balance will change and deduct the price of the monthly charge
+  */
+  public void deductMonthlyCharge() {
+    this.balance -= transactionFee * monthlyCharge;
+    this.requestMade = 0;
+  }
 
 }

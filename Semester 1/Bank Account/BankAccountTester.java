@@ -21,5 +21,9 @@ public class BankAccountTester {
     account.withdrawal(100.00);
     System.out.println("This is now the balance $" + account.getBalance());
     System.out.println("Your balance should be $400");
+
+    account.deductMonthlyCharge();
+    System.out.println("This is now the balance for the monthly charge$" + account.getBalance());
+
   }
 }
