@@ -34,11 +34,9 @@ public class CashRegister
       @param nickels the number of nickels in the payment
       @param pennies the number of pennies in the payment
    */
-   public void receivePayment(int dollars, int quarters,
-         int dimes, int nickels, int pennies)
+   public void receivePayment(int dollars, int quarters, int dimes, int nickels, int pennies)
    {
-      payment = dollars + quarters * QUARTER_VALUE + dimes * DIME_VALUE
-            + nickels * NICKEL_VALUE + pennies * PENNY_VALUE;
+      payment = dollars + quarters * QUARTER_VALUE + dimes * DIME_VALUE + nickels * NICKEL_VALUE + pennies * PENNY_VALUE;
    }
 
    /**
