@@ -27,6 +27,51 @@ public class CashRegister
    }
 
    /**
+      Adds x quaters to the purchase of an item.
+      @param quaters the number of quarters in the payment
+   */
+   public void enterQuarters(double quarters)
+   {
+      payment += quarters * QUARTER_VALUE;
+   }
+
+   /**
+      Adds x dollars to the purchase of an item.
+      @param dollars the number of dollars in the payment
+   */
+   public void enterDollars(int dollars)
+   {
+      payment += dollars;
+   }
+
+   /**
+      Adds x nickels to the purchase of an item.
+      @param nickels the number of nickels in the payment
+   */
+  public void enterNickels(double nickels)
+  {
+     payment += nickel * NICKEL_VALUE;
+  }
+
+  /**
+      Adds x penny to the purchase of an item.
+      @param penny the number of penny in the payment
+   */
+  public void enterPenny(double penny)
+  {
+     payment += penny * PENNY_VALUE;
+  }
+
+  /**
+      Adds x dime to the purchase of an item.
+      @param dime the number of dimes in the payment
+   */
+  public void enterPenny(double dime)
+  {
+     payment += dime * DIME_VALUE;
+  }
+
+   /**
       Processes the payment received from the customer.
       @param dollars the number of dollars in the payment
       @param quarters the number of quarters in the payment
@@ -46,8 +91,9 @@ public class CashRegister
    public double giveChange()
    {
       double change = payment - purchase;
+      double changeR = Math.round(change * 100.0) / 100.0;
       purchase = 0;
       payment = 0;
-      return change;
+      return changeR;
    }
 }
