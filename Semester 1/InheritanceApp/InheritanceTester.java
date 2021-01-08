@@ -1,12 +1,20 @@
 public class InheritanceTester
 {
 
-   // public static void print(Car c)
-   // {
-      // System.out.println(c.getDescription());
-      // System.out.println("Tires: " + c.getNumberOfTires());
-   // }
+  public static void print(Car c)
+   {
+      System.out.println(c.getDescription());
+   }
 
+   public static void print(Van v)
+    {
+       System.out.println(v.getDescription());
+    }
+
+    public static void print(Bus b)
+     {
+        System.out.println(b.getDescription());
+     }
 
    public static void main(String[] args)
    {
@@ -14,19 +22,19 @@ public class InheritanceTester
       Car aLimo = new Car();
       aLimo.setLicensePlateNumber("Kirby");
       aLimo.setHoodLocation("Back");
-      aLimo.setCupHolders(4);
-      aLimo.getDescription();
+      aLimo.setCupHolders("4");
+      print(aLimo);
 
-      Van aSuv = new Van();
-      // aSuv.setDoorNumber(4); You can change this here or in child class
-      aSuv.setHoodLocation("Back");
-      aSuv.setCupHolders(4);
-      aSuv.getDescription();
+      Van aSuv = new Van(); // aSuv.setDoorNumber(4); You can change this here or in child class
+      aSuv.setDoorNumber("4");
+      aSuv.setCupHolders("6");
+      aSuv.setTrailerHinge("1");
+      print(aSuv);
 
       Bus aTrax = new Bus();
-      aTrax.setSeatNumber(36);
-      aTrax.setStorageContainer(4);
-      aTrax.setHandleBars(8);
-      aTarx.getDescription();
+      aTrax.setSeatNumber("36");
+      aTrax.setStorageContainer("4");
+      aTrax.setHandleBars("8");
+      print(aTrax);
    }
 }

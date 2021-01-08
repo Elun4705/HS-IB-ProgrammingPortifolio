@@ -14,28 +14,28 @@ public class Vehicle
       numberOfTires = newValue;
    }
 
-   public String getColorOfCar()
+   public String getColorOfVehicle()
    {
-      return numberOfTires;
+      return colorOfVehicle;
    }
 
    public void setColorOfVehicle(String newColor)
    {
-      colorOfCar = newColor;
+      colorOfVehicle = newColor;
    }
 
    public int getNumberOfWindows()
    {
-      return numberOfTires;
+      return numberOfWindows;
    }
 
    public void setNumberOfWindows(int newValue)
    {
-      numberOfTires = newValue;
+      numberOfWindows = newValue;
    }
 
    public String getDescription()
    {
-      return "A vehicle " + colorOfCar + " with " + numberOfTires + " tires & " + numberOfWindows + " windows";
+      return "A vehicle " + colorOfVehicle + " with " + numberOfTires + " tires & " + numberOfWindows + " windows";
    }
 }
