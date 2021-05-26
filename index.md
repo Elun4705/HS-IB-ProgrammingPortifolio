@@ -2,38 +2,83 @@
 
 ![Calculator Code](https://github.com/Elun4705/IB-Programming---Prortifolio/blob/gh-pages/Images/Capture.JPG?raw=true)
 
-You can use the [editor on GitHub](https://github.com/Elun4705/IB-Programming---Prortifolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is Emmanuel Luna's Repository of for IB Computer Science with a link to each project and description of the program.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Bank Account
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This is project is the first implementation os methods  - [Bank Account](https://github.com/Elun4705/IB-Programming---Portifolio/tree/gh-pages/Year%201/Bank%20Account)
 
-```markdown
-Syntax highlighted code block
+### Ceasar Cipher
 
-# Header 1
-## Header 2
-### Header 3
+This program encrypts a file using the Caesar cipher - [CeasarCipher](https://github.com/Elun4705/IB-Programming---Portifolio/tree/gh-pages/Year%201/CaesarCipher)
 
-- Bulleted
-- List
+### Collections intro
 
-1. Numbered
-2. List
+Goes over the specific use of LinkedLists - [Collections intro](https://github.com/Elun4705/IB-Programming---Portifolio/tree/gh-pages/Year%201/Collections%20intro)
 
-**Bold** and _Italic_ and `Code` text
+### Common Array
 
-[Link](url) and ![Image](src)
-```
+Only an implementation of methods in seperate classes - [CommonArrayAlgo](https://github.com/Elun4705/IB-Programming---Portifolio/tree/gh-pages/Year%201/CommonArrayAlgo)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Counter
 
-### Jekyll Themes
+Simple use of counters in a program - [Counter](https://github.com/Elun4705/IB-Programming---Portifolio/blob/gh-pages/Year%201/Counter/CounterDemo.java)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Elun4705/IB-Programming---Prortifolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### DayTester
 
-### Support or Contact
+A program capable of storing and getting the current data  - [DayTester](https://github.com/Elun4705/IB-Programming---Portifolio/tree/gh-pages/Year%201/DayTester)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### FirstGUI
+
+Displays a chart of certain birthdays in code - [FirstGUI](https://github.com/Elun4705/IB-Programming---Portifolio/tree/gh-pages/Year%201/FirstGUI)
+
+### StockMarket Investor (GROUP PROJECT)
+
+The following project buys and sell - [StockInvestor copy](https://github.com/Elun4705/IB-Programming---Portifolio/tree/gh-pages/Year%201/GroupProject/StockInvestor%20copy)
+
+### Hello World
+
+Hello World
+
+### Individual Assesment/Internal Assesment (Individual Project)
+
+This is most complex project in the this repo, it's a literal mini game free roam rpg - (IA)[https://github.com/Elun4705/IB-Programming---Portifolio/tree/gh-pages/Year%201/IA]
+
+### Inheritence Apps
+
+Simple use of inheritence and organization [InheritanceApp](https://github.com/Elun4705/IB-Programming---Portifolio/tree/gh-pages/Year%201/InheritanceApp)
+
+### Interfaces and Abstraction
+
+
+
+### Modified Cash Register
+
+
+
+### 2D Array
+
+
+
+### Permutation and Recursion
+
+
+
+### Pi Algorithm
+## Pi Algorithm Finished
+
+
+
+### Recursion
+
+
+
+### Tanker
+
+
+
+### Big Java
+
+Any file containing big java contains activivies used to learn the functionality in each in addition to a project related to the topic, ex. Tic-Tac-Toe
