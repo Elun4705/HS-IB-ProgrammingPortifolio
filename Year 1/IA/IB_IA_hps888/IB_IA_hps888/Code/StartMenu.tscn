@@ -1,0 +1,83 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://World/GrassBackground.png" type="Texture" id=1]
+[ext_resource path="res://World/DirtPathTileMap.tscn" type="PackedScene" id=2]
+[ext_resource path="res://World/DirtCliffTileMap.tscn" type="PackedScene" id=3]
+[ext_resource path="res://World/Bush.tscn" type="PackedScene" id=4]
+[ext_resource path="res://World/Tree.tscn" type="PackedScene" id=5]
+[ext_resource path="res://UI/Title.png" type="Texture" id=6]
+[ext_resource path="res://StartMenu.gd" type="Script" id=7]
+[ext_resource path="res://Music and Sounds/TitleScreen.wav" type="AudioStream" id=8]
+
+[node name="StartMenu" type="Node2D"]
+script = ExtResource( 7 )
+
+[node name="Grass" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 0, 336, 192 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="DirtPathTileMap" parent="." instance=ExtResource( 2 )]
+tile_data = PoolIntArray( 65539, 0, 196608, 65540, 0, 196609, 65541, 0, 196610, 65546, 0, 196608, 65547, 0, 6, 65548, 0, 1, 65549, 0, 1, 65550, 0, 1, 65551, 0, 2, 131083, 0, 131072, 131084, 0, 131073, 131085, 0, 131073, 131086, 0, 65542, 131087, 0, 65538, 196622, 0, 65536, 196623, 0, 131077, 196624, 0, 1, 196625, 0, 1, 196626, 0, 1, 196627, 0, 2, 262158, 0, 131072, 262159, 0, 65542, 262160, 0, 65537, 262161, 0, 65537, 262162, 0, 65541, 262163, 0, 131074, 327683, 0, 0, 327684, 0, 2, 327695, 0, 131072, 327696, 0, 131073, 327697, 0, 131073, 327698, 0, 131074, 393219, 0, 65536, 393220, 0, 131077, 393221, 0, 2, 458755, 0, 131072, 458756, 0, 65542, 458757, 0, 65538, 524292, 0, 65536, 524293, 0, 131077, 524294, 0, 1, 524295, 0, 2, 524299, 0, 0, 524300, 0, 1, 524301, 0, 1, 524302, 0, 1, 524303, 0, 1, 524304, 0, 1, 524305, 0, 2, 589828, 0, 131072, 589829, 0, 131073, 589830, 0, 131073, 589831, 0, 196613, 589832, 0, 196609, 589833, 0, 196609, 589834, 0, 196609, 589835, 0, 196614, 589836, 0, 131073, 589837, 0, 131073, 589838, 0, 131073, 589839, 0, 131073, 589840, 0, 131073, 589841, 0, 131074, 720906, 0, 196608, 720907, 0, 196610 )
+
+[node name="DirtCliffTileMap" parent="." instance=ExtResource( 3 )]
+tile_data = PoolIntArray( -1, 0, 0, -65536, 0, 1, -65535, 0, 1, -65534, 0, 1, -65533, 0, 1, -65532, 0, 1, -65531, 0, 1, -65530, 0, 1, -65529, 0, 1, -65528, 0, 1, -65527, 0, 1, -65526, 0, 2, 65535, 0, 65536, 0, 0, 65541, 1, 0, 131073, 2, 0, 131073, 3, 0, 65544, 4, 0, 131073, 5, 0, 131073, 6, 0, 131073, 7, 0, 131073, 8, 0, 65544, 9, 0, 131073, 10, 0, 65543, 131071, 0, 65536, 65536, 0, 65538, 65539, 0, 131075, 65544, 0, 131075, 65546, 0, 65539, 196607, 0, 65536, 131072, 0, 65538, 131077, 0, 0, 131078, 0, 2, 131082, 0, 65539, 262143, 0, 65536, 196608, 0, 65538, 196612, 0, 196608, 196613, 0, 196614, 196614, 0, 196613, 196615, 0, 196609, 196616, 0, 196610, 196618, 0, 65539, 327679, 0, 65536, 262144, 0, 131077, 262145, 0, 2, 262154, 0, 65539, 393215, 0, 131072, 327680, 0, 131073, 327681, 0, 196613, 327682, 0, 196609, 327683, 0, 196609, 327684, 0, 196609, 327685, 0, 196609, 327686, 0, 196609, 327687, 0, 196609, 327688, 0, 196609, 327689, 0, 196609, 327690, 0, 196615 )
+
+[node name="Bush" parent="." instance=ExtResource( 4 )]
+position = Vector2( 28.8838, 156.162 )
+
+[node name="Bush2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 15.3024, 20.8908 )
+
+[node name="Bush3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 272.535, 37.7407 )
+
+[node name="Bush4" parent="." instance=ExtResource( 4 )]
+position = Vector2( 303.229, 146.112 )
+
+[node name="Bush5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 112.274, 34.4723 )
+
+[node name="Tree" parent="." instance=ExtResource( 5 )]
+position = Vector2( 62.7643, 59.5039 )
+
+[node name="Tree2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 85.448, 132.826 )
+
+[node name="Tree3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 272.522, 14.9439 )
+
+[node name="Tree4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 194.271, 98.9014 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 102.634, 0.749142 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 6 )
+centered = false
+region_rect = Rect2( 0, 0, 128, 128 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 92.0
+margin_top = 146.0
+margin_right = 263.0
+margin_bottom = 160.0
+custom_colors/font_color = Color( 0.458824, 0, 0, 0.74902 )
+text = "PRESS ANY KEY TO START"
+align = 1
+valign = 1
+autowrap = true
+clip_text = true
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 8 )
+volume_db = 5.0
+autoplay = true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Enviroment(120).wav-482ecd52d549fd8e93480fbd0d1f4adc.sample"
+
+[deps]
+
+source_file="res://Music and Sounds/Enviroment(120).wav"
+dest_files=[ "res://.import/Enviroment(120).wav-482ecd52d549fd8e93480fbd0d1f4adc.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=true
+compress/mode=0

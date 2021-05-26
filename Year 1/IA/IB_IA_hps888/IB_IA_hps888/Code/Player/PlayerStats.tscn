@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Stats.tscn" type="PackedScene" id=1]
+[ext_resource path="res://PlayerDefeated.tscn" type="PackedScene" id=2]
+
+[node name="PlayerStats" instance=ExtResource( 1 )]
+max_health = 6
+
+[node name="PlayerDefeated" parent="." index="0" instance=ExtResource( 2 )]
+[connection signal="no_health" from="." to="PlayerDefeated" method="_on_PlayerStats_no_health"]
