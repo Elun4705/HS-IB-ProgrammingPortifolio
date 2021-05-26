@@ -1,0 +1,10 @@
+WHAT WE NEED TO EVALUATE STOCKS:
+1: VALUE PER SHARE WHEN BOUGHT
+2: CURRENT VALUE PER SHARE
+3: INDEX OF STOCK
+4: CURRENT %D (SSTO)
+5: CURRENT %K (SSTO)
+//When %K is above %D it is a good time to buy
+//When %K is below %D it is a good time to sell
+//When %K is above %D but both are less than twenty it is the best time to buy
+//When %K is below %D but both are greater than eighty it is the best time to sell

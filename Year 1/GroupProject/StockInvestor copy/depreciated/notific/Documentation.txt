@@ -1,0 +1,10 @@
+Code is sourced from: http://stackoverflow.com/questions/3649014/send-email-using-java
+As it stands the class (most likely) cannot be utilized to send emails on the school network because of IBOSS'S restrictions.
+The SMTP server being used is provided by Google (GMAIL).
+Google also offers an API for GMail that appears to be a pain to setup but once it is installed works well.
+In order to run the class you will need to have Javax.mail imported as an API
+Username and password for the google account associated with the stock application is available in the source code "ad.java" in this directory
+We should consider using a mobile hotspot of sorts to circumvent the limitations of IBOSS so that the emails can be sent out successfully.
+SMS would be another viable option, however a sim card would need to be provided and this method would likely cost more money than other methods.  SMS could also be utilized through email though.
+Email through GMAIL would be free as long as we don't exceed around 99 emails a day. This shouldn't be a problem because the application should only send out one Email at the end of the day. 
+Further documentation on the limits of the email's using the SMTP server is available here: https://support.google.com/a/answer/166852?hl=en

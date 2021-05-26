@@ -1,0 +1,8 @@
+1. Current price per share [from API]
+2. Index [from API]
+3. Current %D [from API]
+4. Sector [from API]
+5. Current account balance [from program's logs]
+6. Total amount of indices currently owned [from program's logs]
+7. Total current monetary value of our owned stock in the same sector [from both the program's logs and API]
+8. If the stock is on either the NYSE or NASDAQ [from API]
