@@ -44,7 +44,7 @@ Prints Hello World - [Hello World](https://github.com/Elun4705/IB-Programming---
 
 ### Individual Assesment/Internal Assesment (Individual Project)
 
-![alt text](https://github.com/Elun4705/IB-Programming---Portifolio/blob/gh-pages/Year%201/IA/IB_IA_hps888/IB_IA_hps888/Documentation/Game.JPG)
+![alt text](https://github.com/Elun4705/IB-Programming---Portifolio/blob/gh-pages/Year%201/IA/IB_IA_hps888/IB_IA_hps888/Documentation/Game.png)
 
 This is most complex project in the this repo, it's a literal mini game free roam rpg - [IA](https://github.com/Elun4705/IB-Programming---Portifolio/tree/gh-pages/Year%201/IA)
 
