@@ -44,8 +44,6 @@ Prints Hello World - [Hello World](https://github.com/Elun4705/IB-Programming---
 
 ### Individual Assesment/Internal Assesment (Individual Project)
 
-![alt text](https://github.com/Elun4705/IB-Programming---Prortifolio/blob/gh-pages/Images/Game.png?raw=true)
-
 This is most complex project in the this repo, it's a literal mini game free roam rpg - [IA](https://github.com/Elun4705/IB-Programming---Portifolio/tree/gh-pages/Year%201/IA)
 
 ### Inheritence Apps
